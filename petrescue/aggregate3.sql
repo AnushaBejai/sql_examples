@@ -1,0 +1,3 @@
+select 
+MAX(QUANTITY) 
+from PETRESCUE;

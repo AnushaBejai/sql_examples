@@ -1,0 +1,2 @@
+select ROUND(COST) 
+from PETRESCUE;

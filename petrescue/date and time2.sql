@@ -1,0 +1,3 @@
+select SUM(QUANTITY) 
+from PETRESCUE
+ where MONTH(RESCUEDATE)='05';

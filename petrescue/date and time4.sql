@@ -1,0 +1,2 @@
+select (CURRENT DATE - RESCUEDATE) 
+from PETRESCUE;

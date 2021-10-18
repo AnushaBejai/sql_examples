@@ -1,0 +1,2 @@
+select LENGTH(ANIMAL) 
+from PETRESCUE;
