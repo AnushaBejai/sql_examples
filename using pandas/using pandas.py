@@ -1,6 +1,6 @@
 import ibm_db
 !pip install --force-reinstall ibm_db ibm_db_sa
-#Replace the placeholder values with the actuals for your Db2 Service Credentials
+#Replace the placeholder values with the actuals for the Db2 Service Credentials
 dsn_driver = "{IBM DB2 ODBC DRIVER}"
 dsn_database = "bludb"            # e.g. "BLUDB"
 dsn_hostname = "764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud"            # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
@@ -10,7 +10,6 @@ dsn_uid = "vbj07116"                 # e.g. "abc12345"
 dsn_pwd = "iQRIn7qUYxf4stP9"                 # e.g. "7dBZ3wWt9XN6$o0J"
 dsn_security = "SSL"              #i.e. "SSL"
 #Create database connection
-#DO NOT MODIFY THIS CELL. Just RUN it with Shift + Enter
 dsn = (
     "DRIVER={0};"
     "DATABASE={1};"
